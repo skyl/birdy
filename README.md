@@ -154,7 +154,8 @@ client = StreamClient(CONSUMER_KEY,
                     ACCESS_TOKEN_SECRET)
 ```
 
-To access resources on the **Public** stream, like **POST statuses/filter** ([Twitter docs](https://dev.twitter.com/docs/api/1.1/post/statuses/filter))
+To access resources on the **Public** stream, like **POST statuses/filter**
+([Twitter docs](https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter))
 
 ```python
 resource = client.stream.statuses.filter.post(track='twitter')
